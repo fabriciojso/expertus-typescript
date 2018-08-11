@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": true,
+    "no-duplicate-imports": false,
+    "jsx-boolean-value": true,
+    "member-ordering": [true, { "order": "fields-first" }],
+    "ordered-imports": false
+  }
+}
